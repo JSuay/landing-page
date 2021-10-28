@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  height: 100px;
+  background-color: #245766;
+  padding: 60px;
+}
+
+.footer-nav i{
+  font-size: 16px;
+  color: white;
+  width: 1.25em;
+}
+
+.footer-nav img{
+  color: white;
+  height: 30px;
+  padding: 15px
+}
+
+.footer-nav p {
+  font-size: 16px;
+  color: white;
+}

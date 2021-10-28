@@ -1,0 +1,54 @@
+.banner {
+  height: 170px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin: 0 0 20px 0;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+
+}
+
+.hide {
+  opacity: 0;
+  width: 100px;
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px) translateY(0px);
+  top: -68px;
+  left: 110px;
+}
+.show:hover .hide {
+  opacity: 1;
+  transform: translateX(120px) translateY(-80px);
+  transition: transform 3s ease-out;
+}
+
+@media (max-width: 900px) {
+ .banner .container {
+   text-align: center;
+ }
+ .banner .container a {
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+}

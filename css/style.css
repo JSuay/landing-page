@@ -1,0 +1,54 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300&display=swap');
+
+/* Utilities */
+@import url('components/banner.css');
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/avatar.css');
+@import url('components/footer.css');
+
+
+
+
+body {
+  margin: 0;
+  font-family: "Open-Sans", sans-serif;
+  background-color: #bf9c501f;
+  min-height: 900px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  margin: 0 auto;
+  width: 880px;
+}
+
+.card-section h2 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+
+@media (max-width: 900px) {
+.container{
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .banner .container {
+   text-align: center;
+ }
+}

@@ -1,0 +1,51 @@
+
+.btn-banner {
+
+  margin-top: 12px;
+  display: block;
+  background-color: rgb(88, 151, 29);
+  padding: 12px 8px;
+  color: white;
+  border-radius: 3em;
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Permanent Marker", sans-serif;
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+/* .btn-banner{
+  background-color: #343A40;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+
+} */
+
+.btn-banner:hover{
+   background-image:linear-gradient(
+      to right,
+      #E7484F,
+      #F68B1D,
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slide-btn 2s linear infinite;
+}
+
+
+@keyframes slide-btn {
+  to {
+    background-position:20vw;
+  }
+}
